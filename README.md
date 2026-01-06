@@ -39,7 +39,12 @@
 
 <be>
 
-CloakQuest3r is a powerful Python tool meticulously crafted to uncover the true IP address of websites safeguarded by Cloudflare and other alternatives, a widely adopted web security and performance enhancement service. Its core mission is to accurately discern the actual IP address of web servers that are concealed behind Cloudflare's protective shield. Subdomain scanning is employed as a key technique in this pursuit. This tool is an invaluable resource for penetration testers, security professionals, and web administrators seeking to perform comprehensive security assessments and identify vulnerabilities that may be obscured by Cloudflare's security measures.
+CloakQuest3r is a Python-based security research tool designed to analyze and identify potential **origin IP exposure** of websites protected by Cloudflare and other reverse proxy or CDN services.
+
+Websites often rely on Cloudflare to mask their origin server IPs for security and performance benefits. However, misconfigurations—such as exposed subdomains, legacy DNS records, or improperly secured services—can unintentionally reveal the underlying server infrastructure.
+
+CloakQuest3r focuses on **subdomain enumeration and passive analysis techniques** to help security professionals, penetration testers, and web administrators assess whether sensitive origin infrastructure is inadvertently exposed. The tool is intended to support **authorized security testing, defensive assessments, and infrastructure hardening efforts**.
+
 
 
 ### 🚀 Run Online Free On `Google Colab`, `Google Shell`, `Binder`
